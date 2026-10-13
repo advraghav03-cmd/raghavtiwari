@@ -1,0 +1,728 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Raghav Tiwari — Advocate & Cyber Law Specialist</title>
+
+<style>
+/* Design System: Premium Black & White — Business Card Aesthetic */
+
+:root {
+  --black: #1a1a1a;
+  --white: #ffffff;
+  --light-gray: #f5f5f5;
+  --medium-gray: #e0e0e0;
+  --text-dark: #1a1a1a;
+  --text-light: #666666;
+  --accent: #ffffff;
+  --accent-shadow: rgba(0, 0, 0, 0.1);
+
+  --font-display: 'Georgia', serif;
+  --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-size-hero: clamp(2rem, 6vw, 3.5rem);
+  --font-size-h2: clamp(1.75rem, 4vw, 2.5rem);
+  --font-size-h3: clamp(1.25rem, 3vw, 1.75rem);
+  --font-size-body: 1rem;
+  --spacing-unit: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --black: #ffffff;
+    --white: #1a1a1a;
+    --light-gray: #2a2a2a;
+    --medium-gray: #3a3a3a;
+    --text-dark: #ffffff;
+    --text-light: #cccccc;
+    --accent: #1a1a1a;
+    --accent-shadow: rgba(255, 255, 255, 0.1);
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --black: #ffffff;
+  --white: #1a1a1a;
+  --light-gray: #2a2a2a;
+  --medium-gray: #3a3a3a;
+  --text-dark: #ffffff;
+  --text-light: #cccccc;
+  --accent: #1a1a1a;
+  --accent-shadow: rgba(255, 255, 255, 0.1);
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--white);
+  color: var(--text-dark);
+  font-family: var(--font-body);
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  text-wrap: balance;
+  margin: 0;
+}
+
+h1 {
+  font-size: var(--font-size-hero);
+  color: var(--black);
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+  color: var(--black);
+  margin-bottom: var(--spacing-unit);
+}
+
+h3 {
+  font-size: var(--font-size-h3);
+  color: var(--black);
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin: 0 0 1rem 0;
+  color: var(--text-dark);
+  font-size: var(--font-size-body);
+  line-height: 1.7;
+}
+
+a {
+  color: var(--teal);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* Layout */
+body {
+  padding-inline: max(1rem, env(safe-area-inset-left, 0px), env(safe-area-inset-right, 0px));
+  padding-block: env(safe-area-inset-top, 0px) env(safe-area-inset-bottom, 0px);
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+header {
+  background: var(--black);
+  color: var(--white);
+  padding: 1.5rem 0;
+  border-bottom: 2px solid #333;
+  position: sticky;
+  top: env(safe-area-inset-top, 0px);
+  z-index: 100;
+}
+
+.header-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.logo {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--white);
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav a {
+  color: var(--white);
+  font-weight: 500;
+  font-size: 0.95rem;
+  border-bottom: 2px solid transparent;
+  transition: border 0.2s;
+}
+
+.nav a:hover {
+  border-bottom-color: var(--white);
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+}
+
+/* Hero */
+.hero {
+  background: var(--black);
+  color: var(--white);
+  padding: 5rem 0;
+  border-bottom: 2px solid #333;
+  position: relative;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100px;
+  height: 120px;
+  background: var(--white);
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 50% 75%, 18% 100%, 0% 38%);
+  opacity: 0.1;
+}
+
+.hero-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-text h1 {
+  margin-bottom: 1rem;
+  color: var(--white);
+}
+
+.hero-text .subtitle {
+  font-size: 0.9rem;
+  color: var(--white);
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  font-family: var(--font-body);
+  letter-spacing: 0.15em;
+  opacity: 0.8;
+}
+
+.hero-text p {
+  font-size: 1.05rem;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 2rem;
+  line-height: 1.8;
+}
+
+.cta-button {
+  display: inline-block;
+  background: var(--white);
+  color: var(--black);
+  padding: 1rem 2.5rem;
+  border-radius: 2px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.cta-button:hover {
+  background: #f5f5f5;
+  transform: translateY(-2px);
+}
+
+.hero-image {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px var(--accent-shadow);
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+  
+  .hero {
+    padding: 3rem 0;
+  }
+}
+
+/* Practice Areas */
+.practice-areas {
+  padding: 5rem 0;
+  background: var(--white);
+}
+
+.practice-areas h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.practice-areas h2:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 2px;
+  background: var(--black);
+}
+
+.areas-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+}
+
+.area-card {
+  padding: 2rem;
+  border: 2px solid var(--medium-gray);
+  border-radius: 0px;
+  background: var(--white);
+  transition: all 0.3s;
+}
+
+.area-card:hover {
+  border-color: var(--black);
+  box-shadow: 0 10px 30px var(--accent-shadow);
+  transform: translateY(-4px);
+}
+
+.area-card h3 {
+  color: var(--black);
+  margin-bottom: 1rem;
+}
+
+.area-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.area-card li {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  color: var(--text-light);
+}
+
+.area-card li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--black);
+  font-weight: bold;
+}
+
+/* Credentials */
+.credentials {
+  background: var(--light-gray);
+  padding: 5rem 0;
+  border-top: 2px solid var(--medium-gray);
+  border-bottom: 2px solid var(--medium-gray);
+}
+
+.credentials-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.credentials h2 {
+  margin-bottom: 2rem;
+  position: relative;
+  padding-bottom: 1.5rem;
+}
+
+.credentials h2:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 2px;
+  background: var(--black);
+}
+
+.cred-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.cred-item {
+  background: var(--white);
+  padding: 1.5rem;
+  border-radius: 0px;
+  border-left: 3px solid var(--black);
+}
+
+.cred-item h3 {
+  font-size: 1rem;
+  color: var(--navy);
+  margin-bottom: 0.5rem;
+  text-wrap: balance;
+}
+
+.cred-item p {
+  font-size: 0.9rem;
+  color: var(--text-light);
+  margin: 0;
+}
+
+/* Stats/Results */
+.results {
+  padding: 5rem 0;
+}
+
+.results-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.results h2 {
+  margin-bottom: 3rem;
+  position: relative;
+  padding-bottom: 1.5rem;
+}
+
+.results h2:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 2px;
+  background: var(--black);
+}
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 3rem;
+  text-align: center;
+}
+
+.result-stat {
+  padding: 2rem 0;
+}
+
+.result-stat .number {
+  font-family: var(--font-display);
+  font-size: 2.5rem;
+  color: var(--black);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.result-stat .label {
+  color: var(--text-light);
+  font-size: 1rem;
+}
+
+/* Contact CTA */
+.contact-cta {
+  background: var(--black);
+  color: var(--white);
+  padding: 4rem 0;
+  text-align: center;
+  border-top: 2px solid #333;
+}
+
+.contact-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.contact-cta h2 {
+  color: var(--white);
+  margin-bottom: 1.5rem;
+}
+
+.contact-cta p {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.contact-link {
+  background: var(--white);
+  color: var(--black);
+  padding: 0.75rem 1.5rem;
+  border-radius: 2px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.contact-link:hover {
+  background: #f5f5f5;
+  color: var(--black);
+  transform: translateY(-2px);
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
+  flex-wrap: wrap;
+}
+
+.contact-info span {
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  padding-right: 1.5rem;
+}
+
+.contact-info span:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+
+/* Footer */
+footer {
+  background: var(--black);
+  padding: 2rem 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+  border-top: 2px solid #333;
+}
+
+.footer-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Typography Refinements */
+.subtle {
+  font-size: 0.95rem;
+  color: var(--text-light);
+}
+
+.emphasis {
+  font-weight: 600;
+  color: var(--navy);
+}
+
+/* Utility */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+</style>
+
+<header>
+  <div class="header-content">
+    <h2 class="logo">Raghav Tiwari</h2>
+    <ul class="nav">
+      <li><a href="#practice">Practice Areas</a></li>
+      <li><a href="#credentials">Credentials</a></li>
+      <li><a href="#results">Results</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <div class="subtitle">ADVOCATE & SPECIALIST</div>
+        <h1>Cyber Law & Criminal Defense Excellence</h1>
+        <p>High Court of Chhattisgarh. Specializing in cyber crime defense, high-stakes bail applications, asset recovery, and corporate due diligence. Certified in Cyber Law & Digital Forensics.</p>
+        <a href="#contact" class="cta-button">Schedule Consultation</a>
+      </div>
+      <div class="hero-image">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 500'%3E%3Crect fill='%230f172a' width='400' height='500'/%3E%3Ctext x='50%25' y='50%25' font-size='48' fill='%2308b1b2' text-anchor='middle' dy='.3em' font-family='Georgia'%3EAdvocate%3C/text%3E%3C/svg%3E" alt="Legal Practice">
+      </div>
+    </div>
+  </section>
+
+  <section id="practice" class="practice-areas">
+    <div class="practice-areas">
+      <h2>Core Practice Areas</h2>
+      <div class="areas-grid">
+        <div class="area-card">
+          <h3>Cyber Law & Digital Assets</h3>
+          <ul>
+            <li>Account freeze & digital asset disputes</li>
+            <li>Cyber crime defense</li>
+            <li>Cryptocurrency litigation</li>
+            <li>Data protection & compliance</li>
+          </ul>
+        </div>
+
+        <div class="area-card">
+          <h3>Criminal Defense</h3>
+          <ul>
+            <li>High-stakes bail applications</li>
+            <li>NDPS Act defense</li>
+            <li>Arms Act proceedings</li>
+            <li>Pre-trial detention challenges</li>
+          </ul>
+        </div>
+
+        <div class="area-card">
+          <h3>Asset Recovery</h3>
+          <ul>
+            <li>SARFAESI enforcement</li>
+            <li>NPA recovery & litigation</li>
+            <li>Section 14 petitions</li>
+            <li>Financial dispute resolution</li>
+          </ul>
+        </div>
+
+        <div class="area-card">
+          <h3>Corporate & Banking</h3>
+          <ul>
+            <li>Title verification & due diligence</li>
+            <li>Negotiable Instruments Act</li>
+            <li>Labour & service law</li>
+            <li>Commercial litigation</li>
+          </ul>
+        </div>
+
+        <div class="area-card">
+          <h3>Writ & Appellate</h3>
+          <ul>
+            <li>High Court writ jurisdiction</li>
+            <li>Constitutional challenges</li>
+            <li>Procedural compliance</li>
+            <li>Fundamental rights protection</li>
+          </ul>
+        </div>
+
+        <div class="area-card">
+          <h3>Legal Due Diligence</h3>
+          <ul>
+            <li>Title Search Reports (TSR)</li>
+            <li>Legal Scrutiny Reports (LSR)</li>
+            <li>RBI/NHB compliance</li>
+            <li>Regulatory frameworks</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="credentials" class="credentials">
+    <div class="credentials-content">
+      <h2>Education & Credentials</h2>
+      <div class="cred-grid">
+        <div class="cred-item">
+          <h3>Bar Council Enrollment</h3>
+          <p><span class="emphasis">AIBE-XIX</span> — Enrolled Advocate, State Bar. License effective December 25, 2024.</p>
+        </div>
+
+        <div class="cred-item">
+          <h3>Cyber Law Certification</h3>
+          <p>Ministry of Home Affairs (MHA) — National Cybercrime Training Centre (CyTrain). Digital Forensics & Cyber Security.</p>
+        </div>
+
+        <div class="cred-item">
+          <h3>Bachelor of Laws (LL.B.)</h3>
+          <p>Govt. T.C.L. P.G. College, Janjgir. Completed 2021–2024. Full legal education & Bar exam preparation.</p>
+        </div>
+
+        <div class="cred-item">
+          <h3>Bachelor of Commerce (B.Com.)</h3>
+          <p>Govt. T.C.L. P.G. College, Janjgir. Completed 2019–2021. Financial & commercial foundation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="results" class="results">
+    <div class="results-content">
+      <h2>Case Outcomes & Impact</h2>
+      <div class="results-grid">
+        <div class="result-stat">
+          <div class="number">4+</div>
+          <div class="label">High Court Matters</div>
+        </div>
+
+        <div class="result-stat">
+          <div class="number">100%</div>
+          <div class="label">Account Unfreeze Success</div>
+        </div>
+
+        <div class="result-stat">
+          <div class="number">3+</div>
+          <div class="label">Successful Bail Grants</div>
+        </div>
+
+        <div class="result-stat">
+          <div class="number">50+</div>
+          <div class="label">Due Diligence Reports</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-cta">
+    <div class="contact-content">
+      <h2>Get Legal Representation</h2>
+      <p>Available for consultations on criminal defense, cyber law matters, and corporate due diligence.</p>
+      
+      <div class="contact-links">
+        <a href="tel:9755564391" class="contact-link">Call Now</a>
+        <a href="mailto:advraghav03@gmail.com" class="contact-link">Send Email</a>
+      </div>
+
+      <div class="contact-info">
+        <span><strong>Phone:</strong> 9755564391</span>
+        <span><strong>Email:</strong> advraghav03@gmail.com</span>
+        <span><strong>Location:</strong> Raipur, Chhattisgarh</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-content">
+    <p>&copy; 2024 Raghav Tiwari, Advocate. High Court of Chhattisgarh. All rights reserved.</p>
+    <p class="subtle">This website is for informational purposes only and does not constitute legal advice.</p>
+  </div>
+</footer>
+
+</body></html>
